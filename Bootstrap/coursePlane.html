@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pua Advising Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+  	.panel-body{
+          background: gray;
+          text-align: center;
+  	}
+  	.table-striped{
+  		text-align: center;
+  	}
+  	.table5 {
+  		text-align: center;
+  	}
+  </style>
+</head>
+<body>
+
+<!-- Navegation Bar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">PAU Online Advising</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Advising<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="coursePlane.html">CoursePlan</a></li>
+            <li><a href="advisingForm.html">Advising Form</a></li>
+          </ul>
+        </li>
+        <li><a href="studentProfile.html">Student Profile</a></li>
+        <li><a href="advisorPage.html">Advisor Page</a></li>
+        <li><a href="contactUs.html">Contact Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+   <h1>List of Courses</h1>
+            <table class="table table-striped">
+            	<h2 align="center"> Semester 1</h2>
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+               </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>MATH 101</td>
+                  <td>Calculus I</td>
+                  <th></th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>ENG 101</td>
+                  <td>Basic English</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 101</td>
+                  <td>Introduction to Computer</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>PHY 101</td>
+                  <td>Physics I</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>PHY 102</td>
+                  <td>Physics I(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Total Credit</td>
+                  <td>13.00</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-striped">
+            	<h2 align="center"> Semester 2</h2>
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>MATH 102</td>
+                  <td>Calculus II</td>
+                  <th></th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>ENG 102</td>
+                  <td>Introduction to Composition</td>
+                  <td>ENG 101</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 103</td>
+                  <td>Structured Programming</td>
+                  <td>CSE 101</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 104</td>
+                  <td>Structured Programming(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>PHY 103</td>
+                  <td>Physics II</td>
+                  <td>PHY 101</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Total Credit</td>
+                  <td>13.00</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-striped">
+            	<h2 align="center"> Semester 3</h2>
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CSE 107</td>
+                  <td>Object Oriented Programming</td>
+                  <th>CSE 103</th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 108</td>
+                  <td>Object Oriented Programming(Lab)</td>
+                  <th></th>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>EEE 103</td>
+                  <td>Electrical Circuits</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>EEE 104</td>
+                  <td>Electrical Circuits(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 131</td>
+                  <td>Discrete Mathmatics</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>ECO 201</td>
+                  <td>Economics</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Total Credit</td>
+                  <td>14.00</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-striped">
+            	<h2 align="center"> Semester 4</h2>
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>MATH 201</td>
+                  <td>Differential Equation</td>
+                  <th></th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>STAT 201</td>
+                  <td>Statistics and Probability</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>EEE 201</td>
+                  <td>Electronic Circuit I</td>
+                  <td>EEE 103</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>EEE 201</td>
+                  <td>Electronic Circuit I(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 201</td>
+                  <td>Dta Structure</td>
+                  <td>CSE 107</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 202</td>
+                  <td>Dta Structure(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Total Credit</td>
+                  <td>14.00</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-striped">
+            	<h2 align="center"> Semester 5</h2>
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>MATH 203</td>
+                  <td>Matrices, Laplaces Transform and Fourier Serices</td>
+                  <th></th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 227</td>
+                  <td>Digital Logic Design</td>
+                  <td>EEE 201</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 227</td>
+                  <td>Digital Logic Design(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>ACT 201</td>
+                  <td>Principles of Accounting</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 203</td>
+                  <td>Algorithm</td>
+                  <td>CSE 201</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 203</td>
+                  <td>Algorithm(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Total Credit</td>
+                  <td>14.00</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-striped">
+            	<h2 align="center"> Semester 6</h2>
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CSE 313</td>
+                  <td>Numerical Technique</td>
+                  <th>MATH 203</th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>EEE 207</td>
+                  <td>Electronic Circuit II</td>
+                  <td>EEE 201</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>EEE 207</td>
+                  <td>Electronic Circuit II(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 231</td>
+                  <td>Database System Design</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 232</td>
+                  <td>Database System Design(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Total Credit</td>
+                  <td>11.00</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-striped">
+            	<h2 align="center"> Semester 7</h2>
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CSE 315</td>
+                  <td>Operating System</td>
+                  <th></th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 316</td>
+                  <td>Operating System(Lab)</td>
+                  <th></th>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 237</td>
+                  <td>Digital Electronics and Pulse Techniques</td>
+                  <th>EEE 207</th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 238</td>
+                  <td>Digital Electronics and Pulse Techniques(Lab)</td>
+                  <th></th>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>HUM 304</td>
+                  <td>Wprld Civilization</td>
+                  <th></th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Total Credit</td>
+                  <td>11.00</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-striped">
+            	<h2 align="center"> Semester 8</h2>
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CSE 323</td>
+                  <td>Software Engineering</td>
+                  <th></th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 327</td>
+                  <td>Microprocessor and Microcontroller</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 328</td>
+                  <td>Microprocessor and Microcontroller(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 331</td>
+                  <td>Theory of Computation</td>
+                  <td>CSE 203</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 417</td>
+                  <td>Simulation and Modeling</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 418</td>
+                  <td>Simulation and Modeling(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Total Credit</td>
+                  <td>14.00</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-striped">
+            	<h2 align="center"> Semester 9</h2>
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CSE 333</td>
+                  <td>Artificial Intelligence</td>
+                  <th></th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 334</td>
+                  <td>Artificial Intelligence(Lab)</td>
+                  <th></th>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 317</td>
+                  <td>Computer Architecture</td>
+                  <th>CSE 227</th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 318</td>
+                  <td>Computer Architecture(Lab)</td>
+                  <th></th>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 335</td>
+                  <td>Data Communication</td>
+                  <th></th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Total Credit</td>
+                  <td>11.00</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-striped">
+            	<h2 align="center"> Semester 10</h2>
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CSE 325</td>
+                  <td>Compiler Design</td>
+                  <th>CSE 331</th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 326</td>
+                  <td>Compiler Design(Lab)</td>
+                  <th></th>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 401</td>
+                  <td>Computer Interfacing</td>
+                  <td>CSE 327</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 402</td>
+                  <td>Computer Interfacing(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 415</td>
+                  <td>System Analysis & Design</td>
+                  <td>CSE 323</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 416</td>
+                  <td>System Analysis & Design(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Total Credit</td>
+                  <td>12.00</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-striped">
+            	<h2 align="center"> Semester 11</h2>
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CSE 421</td>
+                  <td>Computer Graphics</td>
+                  <th></th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 422</td>
+                  <td>Computer Graphics(Lab)</td>
+                  <th></th>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>
+                  	
+						<!-- Trigger the modal with a button -->
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">OPTIONAL COURSES</button>
+
+						<!-- Modal -->
+						<div id="myModal" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+
+						    <!-- Modal content-->
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        
+						      </div>
+						      <div class="modal-body">
+						        
+                            <h1>List of Optional Courses</h1>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+               </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CSE 421</td>
+                  <td>Distributed Database System</td>
+                  <th>CSE 231</th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 422</td>
+                  <td>Distributed Database System(Lab)</td>
+                  <th></th>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 423</td>
+                  <td>Patteren Recognition and Neural Network</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 424</td>
+                  <td>Patteren Recognition and Neural Network(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 427</td>
+                  <td>Graph Theory</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 428</td>
+                  <td>Graph Theory(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 431</td>
+                  <td>E-Commerce</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 432</td>
+                  <td>E-Commerce(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 433</td>
+                  <td>Image Processing</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 434</td>
+                  <td>Image Processing(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 435</td>
+                  <td>Expert System</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 436</td>
+                  <td>Expert System(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 497</td>
+                  <td>Embedded System</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 455</td>
+                  <td>Wireless and Cellular Communication</td>
+                  <td>CSE 335</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 456</td>
+                  <td>Wireless and Cellular Communication(Lab)</td>
+                  <td>CSE 335</td>
+                  <td>1.00</td>
+                </tr>
+                 <tr>
+                  <td>CSE 461</td>
+                  <td>Cryptography and Information Security</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 462</td>
+                  <td>Cryptography and Information Security(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 485</td>
+                  <td>Internet and Web Technologies</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 486</td>
+                  <td>Internet and Web Technologies(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 487</td>
+                  <td>Information Retrieval</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 488</td>
+                  <td>Information Retrieval(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 491</td>
+                  <td>Data Mining</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 492</td>
+                  <td>Data Mining(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 493</td>
+                  <td>Bioinformatics</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 495</td>
+                  <td>Machine Learning</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+              </tbody>
+            </table>
+
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+
+						  </div>
+						</div>
+                  </td>
+                  <td>Option I</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>
+                  	
+
+						<!-- Trigger the modal with a button -->
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">OPTIONAL COURSES</button>
+
+						<!-- Modal -->
+						<div id="myModal" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+
+						    <!-- Modal content-->
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        
+						      </div>
+						      <div class="modal-body">
+						        
+                            <h1>List of Optional Courses</h1>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+               </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CSE 421</td>
+                  <td>Distributed Database System</td>
+                  <th>CSE 231</th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 422</td>
+                  <td>Distributed Database System(Lab)</td>
+                  <th></th>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 423</td>
+                  <td>Patteren Recognition and Neural Network</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 424</td>
+                  <td>Patteren Recognition and Neural Network(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 427</td>
+                  <td>Graph Theory</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 428</td>
+                  <td>Graph Theory(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 431</td>
+                  <td>E-Commerce</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 432</td>
+                  <td>E-Commerce(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 433</td>
+                  <td>Image Processing</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 434</td>
+                  <td>Image Processing(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 435</td>
+                  <td>Expert System</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 436</td>
+                  <td>Expert System(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 497</td>
+                  <td>Embedded System</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 455</td>
+                  <td>Wireless and Cellular Communication</td>
+                  <td>CSE 335</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 456</td>
+                  <td>Wireless and Cellular Communication(Lab)</td>
+                  <td>CSE 335</td>
+                  <td>1.00</td>
+                </tr>
+                 <tr>
+                  <td>CSE 461</td>
+                  <td>Cryptography and Information Security</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 462</td>
+                  <td>Cryptography and Information Security(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 485</td>
+                  <td>Internet and Web Technologies</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 486</td>
+                  <td>Internet and Web Technologies(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 487</td>
+                  <td>Information Retrieval</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 488</td>
+                  <td>Information Retrieval(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 491</td>
+                  <td>Data Mining</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 492</td>
+                  <td>Data Mining(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 493</td>
+                  <td>Bioinformatics</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 495</td>
+                  <td>Machine Learning</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+              </tbody>
+            </table>
+
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+
+						  </div>
+						</div>
+
+                  </td>
+                  <td>Option I(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 411</td>
+                  <td>Computer Networks</td>
+                  <td>CSE 335</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 412</td>
+                  <td>Computer Networks(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 414</td>
+                  <td>Project</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Total Credit</td>
+                  <td>15.00</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-striped">
+            	<h2 align="center"> Semester 12</h2>
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                  	
+                    
+						<!-- Trigger the modal with a button -->
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">OPTIONAL COURSES</button>
+
+						<!-- Modal -->
+						<div id="myModal" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+
+						    <!-- Modal content-->
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        
+						      </div>
+						      <div class="modal-body">
+						        
+                            <h1>List of Optional Courses</h1>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+               </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CSE 421</td>
+                  <td>Distributed Database System</td>
+                  <th>CSE 231</th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 422</td>
+                  <td>Distributed Database System(Lab)</td>
+                  <th></th>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 423</td>
+                  <td>Patteren Recognition and Neural Network</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 424</td>
+                  <td>Patteren Recognition and Neural Network(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 427</td>
+                  <td>Graph Theory</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 428</td>
+                  <td>Graph Theory(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 431</td>
+                  <td>E-Commerce</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 432</td>
+                  <td>E-Commerce(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 433</td>
+                  <td>Image Processing</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 434</td>
+                  <td>Image Processing(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 435</td>
+                  <td>Expert System</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 436</td>
+                  <td>Expert System(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 497</td>
+                  <td>Embedded System</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 455</td>
+                  <td>Wireless and Cellular Communication</td>
+                  <td>CSE 335</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 456</td>
+                  <td>Wireless and Cellular Communication(Lab)</td>
+                  <td>CSE 335</td>
+                  <td>1.00</td>
+                </tr>
+                 <tr>
+                  <td>CSE 461</td>
+                  <td>Cryptography and Information Security</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 462</td>
+                  <td>Cryptography and Information Security(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 485</td>
+                  <td>Internet and Web Technologies</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 486</td>
+                  <td>Internet and Web Technologies(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 487</td>
+                  <td>Information Retrieval</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 488</td>
+                  <td>Information Retrieval(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 491</td>
+                  <td>Data Mining</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 492</td>
+                  <td>Data Mining(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 493</td>
+                  <td>Bioinformatics</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 495</td>
+                  <td>Machine Learning</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+              </tbody>
+            </table>
+
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+
+						  </div>
+						</div>
+
+                  </td>
+                  <td>Option II</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>
+                  	
+                  	
+						<!-- Trigger the modal with a button -->
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">OPTIONAL COURSES</button>
+
+						<!-- Modal -->
+						<div id="myModal" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+
+						    <!-- Modal content-->
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        
+						      </div>
+						      <div class="modal-body">
+						        
+                            <h1>List of Optional Courses</h1>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table5">Course Code</th>
+                  <th class="table5">Course Title</th>
+                  <th class="table5">Preerq.</th>
+                  <th class="table5">Course Credit</th>
+               </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CSE 421</td>
+                  <td>Distributed Database System</td>
+                  <th>CSE 231</th>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 422</td>
+                  <td>Distributed Database System(Lab)</td>
+                  <th></th>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 423</td>
+                  <td>Patteren Recognition and Neural Network</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 424</td>
+                  <td>Patteren Recognition and Neural Network(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 427</td>
+                  <td>Graph Theory</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 428</td>
+                  <td>Graph Theory(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 431</td>
+                  <td>E-Commerce</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 432</td>
+                  <td>E-Commerce(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 433</td>
+                  <td>Image Processing</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 434</td>
+                  <td>Image Processing(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 435</td>
+                  <td>Expert System</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 436</td>
+                  <td>Expert System(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 497</td>
+                  <td>Embedded System</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 455</td>
+                  <td>Wireless and Cellular Communication</td>
+                  <td>CSE 335</td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 456</td>
+                  <td>Wireless and Cellular Communication(Lab)</td>
+                  <td>CSE 335</td>
+                  <td>1.00</td>
+                </tr>
+                 <tr>
+                  <td>CSE 461</td>
+                  <td>Cryptography and Information Security</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 462</td>
+                  <td>Cryptography and Information Security(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 485</td>
+                  <td>Internet and Web Technologies</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 486</td>
+                  <td>Internet and Web Technologies(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 487</td>
+                  <td>Information Retrieval</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 488</td>
+                  <td>Information Retrieval(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 491</td>
+                  <td>Data Mining</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 492</td>
+                  <td>Data Mining(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 493</td>
+                  <td>Bioinformatics</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 495</td>
+                  <td>Machine Learning</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+              </tbody>
+            </table>
+
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+
+						  </div>
+						</div>
+
+                  </td>
+                  <td>Option II(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 403</td>
+                  <td>VLSI Design</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 404</td>
+                  <td>VLSI Design(Lab)</td>
+                  <td></td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>CSE 414</td>
+                  <td>Project/Thesis</td>
+                  <td></td>
+                  <td>3.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Total Credit</td>
+                  <td>11.00</td>
+                </tr>
+              </tbody>
+            </table>
+  <div class="panel panel-default">
+  <div class="panel-body">Copyright &copy; 2017 Arif Khan</div>
+</div>
+</body>
+</html>
